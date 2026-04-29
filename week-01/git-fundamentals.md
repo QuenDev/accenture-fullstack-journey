@@ -1,4 +1,7 @@
-# Week 1 - Git Fundamentals
+# Week 1 - Git Fundamental
+
+## The 3 States of Git
+Working Directory → git add → Staging Area → git commit → Local Repo → git push → GitHub
 
 ✅ **Git Module — OFFICIALLY DONE!**
 
