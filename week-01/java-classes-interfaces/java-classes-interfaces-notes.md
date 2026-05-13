@@ -360,20 +360,24 @@ Greeting formal = new Greeting() {
 ```
 
 📋 SOLID Principles Quick Reference
-S = Single Responsibility → one class, one job
-O = Open-Closed          → extend don't modify
-L = Liskov Substitution  → child works where parent works
-I = Interface Segregation → small focused interfaces
-D = Dependency Inversion  → depend on abstractions
+
+| Principle | Explanation |
+|-----------|-------------|
+| **S** - Single Responsibility | One class, one job |
+| **O** - Open-Closed | Extend don't modify |
+| **L** - Liskov Substitution | Child works where parent works |
+| **I** - Interface Segregation | Small focused interfaces |
+| **D** - Dependency Inversion | Depend on abstractions |
 
 🔑 Key Rules To Remember
+
 1. Always null check before using reference types
 2. Use private fields with public getters/setters
-3. Always @Override when overriding methods
-4. Use equals() not == for object comparison
+3. Always `@Override` when overriding methods
+4. Use `equals()` not `==` for object comparison
 5. Abstract class = concept, concrete class = implementation
 6. Interface = CAN-DO, Abstract = IS-A
 7. Constructors not inherited - define your own!
 8. Static methods can only access static members
-9. final = cannot change (class/method/field)
-10. enum = type safe fixed values
+9. `final` = cannot change (class/method/field)
+10. `enum` = type safe fixed values
